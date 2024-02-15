@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator {
+    border: 2px ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    max-width: 800px;
+    background-color: black;
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .display {
+    grid-column: span 4;
+    text-align: right;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-size: 2.5em;
+     background-color: rgb(255, 247, 28);
+      width: 85%;
+     
+      font-size: 24px;
+      border: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
+      border-radius: 5px;
+  }
+  
+  /* .operator { */
+    /* grid-column: span 1;
+    background-color: #ff9500;
+    color: white; */
+    /* font-size: 30px;
+    padding: 10px;
+    margin: 5px; */
+    
+  /* } */
+  .operator{
+    grid-column: span 1;
+    background-color: #0074d9;
+    color: #fff;
+}
+  button{
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+  
+
+   /* * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .calculator {
+    background-color: black;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  #result{
+     background-color: yellowgreen;
+      width: 100%;
+      padding: 10px;
+      font-size: 24px;
+      border: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
+      border-radius: 5px;
+  }
+  
+  .buttons{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      margin-top: 20px;
+  }
+  
+  button{
+      padding: 10px;
+      font-size: 24px;
+      border: none;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+  }
+  
+  button:hover{
+      background-color: #ddd;
+  }
+  
+  .clear{
+      background-color: #ff4136;
+      color: #fff;
+  }
+  
+  .number, .decimal{
+      background-color: #fff;
+      color: #333;
+  
+  }
+  
+  .operator{
+      background-color: #0074d9;
+      color: #fff;
+  }
+  
+  .equals{
+      background-color: #01ff70;
+      grid-row: span 3;
+      color: #fff;
+  } */
